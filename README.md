@@ -6,7 +6,7 @@ dnsFIND performs DNS and WHOIS lookups for a given domain name. It then uses the
 
 - Performs DNS and WHOIS lookups for a given domain name.
 - It uses the dns.resolver module to query DNS records for the domain, and the whois module to retrieve WHOIS information for the domain.
-- It also uses the requests module to query the IP address location using the IP-API service, and the simplekml module to generate a KML file with the location of the IP addresses found in the DNS A records.
+- It also uses the requests module to query the IP address location using the IP-API service (http://ip-api.com), and the simplekml module to generate a KML file with the location of the IP addresses found in the DNS A records.
 - When the script is executed, it prompts the user to enter a domain name, and then calls the perform_dns_lookup and perform_whois_lookup functions to retrieve and print the DNS and WHOIS information for the domain, respectively.
 - The DNS information includes A, CNAME, MX, TXT, and SOA records, and for each A record found, the IP address location is also retrieved and added to a KML file.
 - The KML file is saved in the same directory as the script, and its name includes the domain name.
