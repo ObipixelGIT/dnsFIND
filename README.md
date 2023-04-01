@@ -33,8 +33,6 @@ Ensure you give the script permissions to execute. Do the following from the ter
 sudo chmod +x dnsFIND.py
 ```
 
-## Usage
-
 ## Usage
 ```bash
 sudo python3 dnsFIND.py
