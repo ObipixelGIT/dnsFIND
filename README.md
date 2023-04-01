@@ -11,7 +11,8 @@ dnsFIND performs DNS and WHOIS lookups for a given domain name. It then uses the
 - The DNS information includes A, CNAME, MX, TXT, and SOA records, and for each A record found, the IP address location is also retrieved and added to a KML file.
 - The KML file is saved in the same directory as the script, and its name includes the domain name.
 - You can then Import the KML file from your system into Google Earth (https://earth.google.com).
-- Once in Google Earth, click the 3 lines menu, choose Projects, then import a KML from your system and open the kml you created. You can get the location of the KML from your output on the screen. Screenshots have been provided of an example domain: domain.com
+- Once in Google Earth, click the 3 lines menu, choose Projects, then import a KML from your system and open the kml you created. You can get the location of the KML from your output on the screen.
+- A sample of a KML output and screenshots have been provided (example domain: domain.com)
 - The script uses ANSI escape sequences to print colored output to the console.
 
 ## Preparation
