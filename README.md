@@ -39,7 +39,7 @@ sudo python3 dnsFIND.py
 ```
 
 ## Sample script
-```python
+```
 #!/usr/bin/env python3
 
 import dns.resolver
